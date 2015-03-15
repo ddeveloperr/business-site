@@ -19,10 +19,25 @@
 <link rel="stylesheet" href="css/main.css">
 
 </head>
-<body>
-<span>this app is so cool</span>
-<p>it’s straight up magic</p>
-<span class="highlight"><script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script></span>
-</body>
+<body <span class="highlight">ng-app="tutorialWebApp"</span>>
+<!--[if lt IE 7]>
+<!-- etc… -->
+<![endif]-->
 
+<!-- Our Website Content Goes Here -->
+<div <span class="highlight">ng-include='"templates/header.html"'</span>></div>
+<div <span class="highlight">ng-view</span>></div>
+<div <span class="highlight">ng-include='"templates/footer.html"'</span>></div>
+
+<!-- Vendor: Javascripts -->
+<!-- etc… -->
+
+<span class="highlight"><!-- Vendor: Angular, followed by our custom Javascripts -->
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script></span>
+
+<!-- Our Website Javascripts -->
+<script src="js/main.js"></script>
+
+</body>
 </html>
