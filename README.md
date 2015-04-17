@@ -1,4 +1,4 @@
-# AngularJS-business-site : [See demo] (http://ddeveloperr.github.io/AngularJS-business-site/#/contact)
+# AngularJS-business-site : [See demo] (http://ddeveloperr.github.io/AngularJS_1_business-site/#/contact)
 ================================
 
 A local company, XYZ Manufacturing, has asked me to build a new www.simpleinc.io. The basic areas will be:
